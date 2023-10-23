@@ -27,6 +27,9 @@ body {
 
 .main {
     flex: 1 0 auto;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 1em;
 }
 
 .header, .footer {
@@ -40,7 +43,9 @@ body {
     display: flex;
     justify-content: space-between;
 }
-
+.header {
+    padding-left: 1em;
+}
 /* Title */
 
 .title, .logo {
@@ -73,7 +78,8 @@ body {
     background-color: #ccc;
     display: flex;
     justify-content: space-between;
-    border-top: 1px solid #222;
+    border-top: 2px solid #222;
+    min-height: 5em;
 }
 
 .footer a {
@@ -81,6 +87,11 @@ body {
 }
 
 .footer .social {
+    font-size: 2rem;
+}
+.footer {
+    padding: 1em;
+    overflow-y: auto;
     font-size: 2rem;
 }
 

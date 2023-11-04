@@ -1,0 +1,60 @@
+/* Header */
+
+.header,
+.site-header {
+    background-color: $header-footer-bckg-color;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header {
+    border-bottom: 2px solid #222;
+    padding-left: 0.5em;
+
+}
+
+.header a {
+    font-family: 'Libre Baskerville', sans-serif;
+
+    &:hover {
+        color: $font-alternative-color;
+    }
+}
+
+/* Title */
+
+.title,
+.logo {
+    padding: 3em 3em 3em 0;
+}
+
+@media (max-width: 767px) {
+    .title,
+    .logo {
+        padding: 1em 1em 1em 0;
+    }
+
+    .title {
+        min-width: 50%;
+    }
+
+    .logo {
+        max-width: 30%;
+    }
+}
+
+.title * {
+    color: #111;
+}
+
+.title p {
+    font-style: italic;
+}
+
+.nav {
+    font-size: 1.2rem;
+
+    a:hover {
+        background-color: rgb(146, 143, 143);
+    }
+}

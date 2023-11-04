@@ -9,7 +9,7 @@ Home page
 Hello there! I am a guy who likes to take long walks in the forrest with my dogs.
 The calm along with nature's random sounds always make for a great time.
 
-![en hund](image/tall-300px-width.jpg){.me}
+![a pine tree](image/tall-300px-width.jpg){.me}
 Du trotsiga tall, som sträcker  
 mot himlen din smärta topp,  
 jag känner din stolta strävan,  

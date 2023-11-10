@@ -1,0 +1,128 @@
+/* technology.scss */
+.landingpage {
+    display: grid;
+    grid-template-columns:  1fr, 1fr, 1fr;
+    gap: 1em;
+}
+
+.landingpage h1 {
+    grid-column: span 3;
+    justify-self: center;
+    padding: 20px;
+    background-color: $main-color;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.box {
+    text-align: center;
+    min-height: 150px;
+    min-width: 200px;
+    padding-top: 40px;
+    background-color: $main-color;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 2px;
+    
+    a:hover {
+        background-color: $main-hover;
+    }
+}
+
+.box-wide {
+    grid-column: span 2;
+}
+
+@media (max-width: 840px) {
+    .landingpage {
+        display: grid;
+        grid-template-columns:  1fr, 1fr;
+        gap: 1em;
+    }
+
+    .landingpage h1 {
+        grid-column: span 2;
+        justify-self: center;
+    }
+
+    .git-box {
+        grid-column: span 2;
+    }
+}
+
+@media (max-width: 500px) {
+    .landingpage {
+        display: grid;
+        grid-template-columns:  1fr;
+        gap: 1em;
+    }
+
+    .landingpage h1 {
+        grid-column: span 1;
+        justify-self: center;
+    }
+
+    .box-wide,
+    .git-box {
+        grid-column: span 1;
+    }
+    
+}
+
+/*two column flex*/
+
+.two-column-layout {
+    display: flex;
+    flex-direction: row;
+    /*justify-content: center;*/
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 2px;
+    width:fit-content;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: $main-color !important;
+}
+
+.two-column-main {
+    /*background-color: bisque !important;*/
+    max-width: 700px;
+    padding-right: 20px;
+}
+
+.aside {
+    padding: 20px;
+    max-width: 160px;
+    
+    a:hover {
+        background-color: $main-hover;
+    }
+}
+
+.test-container {
+    display: flex;
+    flex-direction: row !important;
+    justify-content: center !important;
+}
+
+@media (max-width: 700px) {
+    .test-container {
+        flex-direction: column-reverse !important;
+        align-items: center;
+    }
+
+    .two-column-layout {
+        flex-direction: column-reverse !important;
+        align-items: center;
+        /*background-color: bisque;*/
+    }
+
+    .two-column-main {
+        padding-left: 20px;
+    }
+
+}
+
+

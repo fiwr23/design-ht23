@@ -25,26 +25,43 @@
 
 .title,
 .logo {
-    padding: 3em 3em 3em 0;
+    padding: 2em 2em 2em 0;
 }
+@media (max-width: 900px) {
+    .header h1 {
+        font-size: 1.4rem !important;
+    }
 
+    .title p {
+        font-size: 1.0rem !important;
+    }
+
+    .logo {
+        width: 150px;
+    }
+
+}
 @media (max-width: 767px) {
     .title,
     .logo {
         padding: 1em 1em 1em 0;
     }
 
-    .title {
-        min-width: 50%;
-    }
+    /*.title {
+        min-width: 40%;
+    }*/
 
     .logo {
-        max-width: 30%;
+        width: 100px;
     }
 }
 
 .title * {
-    color: #111;
+    color: $font-color;
+
+    &:hover {
+        color: $font-alternative-color;
+    }
 }
 
 .title p {

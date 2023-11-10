@@ -1,6 +1,12 @@
-$font-color: #000;
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Roboto&display=swap');
+
+$everything-font: 'Roboto', sans-serif;
+$header-font: 'Libre Baskerville', sans-serif;
+$font-color: #444;
 $font-alternative-color: #fff;
 $accent-color: #ee6c4d;
 $header-footer-bckg-color: #ccc;
 $background-color: rgba(206, 168, 175, 0.758);
 $background-alternative-color: #e0fbfc;
+$main-color: #ffe4c4;
+$main-hover: #f5f5dc;

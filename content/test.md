@@ -1,5 +1,5 @@
 ---
-Title: Test page
+Title: Test
 Description: This is my test page
 ---
 Min test sida

@@ -9,7 +9,7 @@
 }
 
 .footer a {
-    color: #222;
+    color: $font-color;
     text-decoration: none;
 
     :hover {
@@ -23,9 +23,9 @@
     overflow-y: auto;
 
     p {
-        font-size: 2rem;
-        font-family: 'Libre Baskerville', sans-serif;
-        width: 30vw;
+        font-size: 1.5rem;
+        font-family: $header-font;
+        /*width: 30vw;*/
     }    
 }
 

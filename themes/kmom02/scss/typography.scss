@@ -1,10 +1,8 @@
 /* Typografy */
 
 body {
-    font-family: sans-serif;
-    /*line-height: 1.5rem;*/
-    line-height: 1.5rem;
-    color: #444;
+    font-family: $everything-font;
+    line-height: 1.6;
 }
 
 p, td, th, li, dd {
@@ -14,15 +12,9 @@ p, td, th, li, dd {
 }
 
 h1, h2, h3, h4, h5, h6 {
+    font-family: $header-font;
     margin-bottom: 0.6rem;
     font-weight: bold;
-}
-
-img {
-    max-width: 100%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 p {

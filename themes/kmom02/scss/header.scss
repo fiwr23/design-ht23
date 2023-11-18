@@ -8,7 +8,8 @@
 }
 
 .header {
-    border-bottom: 2px solid #222;
+    border-bottom: 2px solid;
+    border-color: $header-footer-border-color;
     padding-left: 0.5em;
 
 }
@@ -27,6 +28,7 @@
 .logo {
     padding: 2em 2em 2em 0;
 }
+
 @media (max-width: 900px) {
     .header h1 {
         font-size: 1.4rem !important;
@@ -66,12 +68,22 @@
 
 .title p {
     font-style: italic;
+    text-align: left !important;
+}
+
+.title {
+    a {
+        text-decoration: none;
+    }
 }
 
 .nav {
+    padding-top: 2em;
     font-size: 1.2rem;
+    color: $font-color !important;
 
     a:hover {
-        background-color: rgb(146, 143, 143);
+        background-color: $hover-background-color;
+        color: $font-alternative-color;
     }
 }

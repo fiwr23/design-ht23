@@ -1,0 +1,36 @@
+table {
+    width: 100%;
+    max-width: 100%;
+    background-color: $code-pre-background;
+    border-collapse: collapse;
+    color: #575656;
+}
+
+tr:nth-child(2n) {
+    background-color: #eee;
+}
+
+th {
+    text-align: left;
+    background-color: #ccc;
+}
+
+td {
+    border-top: 1px solid #ccc;
+}
+
+th,
+td {
+    padding: 0.8rem 1.2rem;
+}
+
+.color-table {
+    width: fit-content;
+    border-spacing: 4px;
+    border-collapse: separate;
+
+    td {
+        height: 50px;
+        width: 50px;
+    }
+}

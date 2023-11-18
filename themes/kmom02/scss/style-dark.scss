@@ -1,0 +1,27 @@
+@import '../../shared/fontawesome/scss/fontawesome';
+$fa-font-path: '../../shared/fontawesome/webfonts';
+@import '../../shared/fontawesome/scss/brands';
+@import '../../shared/fontawesome/scss/solid';
+@import '../../shared/fontawesome/scss/regular';
+@import '../../node_modules/normalize.css/normalize';
+@import 'dark-variables';
+
+@import 'base';
+@import 'header';
+@import 'typography';
+@import 'footer';
+@import 'technology';
+
+@import 'blockquotes';
+@import 'code';
+
+@import 'mobile-menu';
+@import 'table';
+
+img {
+    filter: brightness(.8) contrast(1.2);
+}
+
+code {
+    color: $font-alternative-color;
+}

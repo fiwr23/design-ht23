@@ -34,6 +34,10 @@
     grid-column: span 2;
 }
 
+.box-threewide {
+    grid-column: span 3;
+}
+
 @media (max-width: 840px) {
     .landingpage {
         display: grid;
@@ -49,9 +53,13 @@
     .git-box {
         grid-column: span 2;
     }
+    
+    .box-threewide {
+        grid-column: span 2;
+    }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 650px) {
     .landingpage {
         display: grid;
         grid-template-columns:  1fr;
@@ -64,6 +72,7 @@
     }
 
     .box-wide,
+    .box-threewide,
     .git-box {
         grid-column: span 1;
     }

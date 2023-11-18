@@ -16,3 +16,9 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import 'code';
 
 @import 'mobile-menu';
+@import 'table';
+
+.main,
+.two-column-layout {
+    box-shadow: 10px 10px 5px rgb(113, 88, 88);
+}

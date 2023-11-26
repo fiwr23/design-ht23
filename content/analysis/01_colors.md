@@ -31,7 +31,7 @@ Resultat
 
 <br>
 
-####Komplement färgschema för skk.se:
+####Analogt färgschema för skk.se:
 <table class="color-table">
 <tr>
 <td style="background-color: #24B258">
@@ -43,7 +43,7 @@ Resultat
 
 <br>
 
-####Komplement färgschema för hundstallet.se:
+####Analogt färgschema för hundstallet.se:
 <table class="color-table">
 <tr>
 <td style="background-color: #004B66">
@@ -55,7 +55,7 @@ Resultat
 
 <br>
 
-####Komplement färgschema för hundens.se:
+####Monokromt färgschema för hundens.se:
 <table class="color-table">
 <tr>
 <td style="background-color: #E58B01">
@@ -88,7 +88,7 @@ Resultat
 Analys
 -----------------------
 
-Skk.se, hundstallet.se och hundens.se domineras av bilder på hundar, vit bakgrund och komplement färgscheman.<br>
+Skk.se, hundstallet.se och hundens.se domineras av bilder på hundar, vit bakgrund och begränsade färgscheman.<br>
 Skk.se förmedlar med gröna och oranga färger natur och sol. Mycket passande ihop med bilder på glada hundar.<br>
 Hundstallet.se ger med mörka blå fält ett lite kallt men samtidigt lugnt intryck. Man får en känlsa av professionalism vilket är passande då sajten handlar om att hjälpa hundar. De mindre fälten/länkarna i röd ton ger samtidigt lite behövd värme.<br>
 Hundens.se ger med sina svarta fält med mindre oranga text rutor en stram men kraftfull bild. Det är rätt passande då sajten handlar om träning. Svart kan motsvara disciplin och orange energi/styrka.<br>

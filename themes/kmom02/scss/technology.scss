@@ -30,6 +30,11 @@
     }
 }
 
+.gallerybox {
+    border-color: $background-color;
+    padding-bottom: 40px;
+}
+
 .box-wide {
     grid-column: span 2;
 }

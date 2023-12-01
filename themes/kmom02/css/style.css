@@ -6478,7 +6478,7 @@ img {
   margin-top: 20px;
   margin-bottom: 20px;
   padding: 1em;
-  background-color: #eca457;
+  background-color: #f6b36b;
   border-radius: 15px;
   border-style: solid;
   border-width: 2px;
@@ -6520,16 +6520,23 @@ picture {
   margin-bottom: 20px;
 }
 
+body {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-blend-mode: darken;
+}
+
 /* Header */
 .header,
 .site-header {
-  background-color: #b77856;
+  background-color: #f1ba9d;
   display: flex;
   justify-content: space-between;
 }
 
 .header {
-  border-bottom: 2px solid;
+  border-bottom: 4px solid;
   border-color: #222;
   padding-left: 0.5em;
 }
@@ -6545,6 +6552,16 @@ picture {
 .title,
 .logo {
   padding: 2em 2em 2em 0;
+}
+
+.logo {
+  width: 200px;
+}
+
+.logo img {
+  border-style: double;
+  border: solid 4px;
+  box-shadow: 10px 10px 5px rgb(11, 11, 11);
 }
 
 @media (max-width: 900px) {
@@ -6626,7 +6643,7 @@ h1 {
 
 /* Footer */
 .footer {
-  background-color: #b77856;
+  background-color: #f1ba9d;
   display: flex;
   justify-content: space-between;
   border-top: 2px solid #222;
@@ -6666,7 +6683,7 @@ h1 {
   grid-column: span 3;
   justify-self: center;
   padding: 20px;
-  background-color: #eca457;
+  background-color: #f6b36b;
   border-radius: 15px;
   border-style: solid;
   border-width: 2px;
@@ -6677,7 +6694,7 @@ h1 {
   min-height: 150px;
   min-width: 200px;
   padding-top: 40px;
-  background-color: #eca457;
+  background-color: #f6b36b;
   border-radius: 15px;
   border-style: solid;
   border-width: 2px;
@@ -6744,7 +6761,7 @@ h1 {
   margin: 0 auto;
   margin-top: 20px;
   margin-bottom: 20px;
-  background-color: #eca457 !important;
+  background-color: #f6b36b !important;
 }
 
 .two-column-main {
@@ -6909,5 +6926,5 @@ td {
 
 .main,
 .two-column-layout {
-  box-shadow: 10px 10px 5px rgb(113, 88, 88);
+  box-shadow: 10px 10px 5px rgb(11, 11, 11);
 }

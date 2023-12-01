@@ -1,8 +1,11 @@
 <div class="footer">
     <div>
-        <p>
-            Yep, this is a footer!
-        </p>
+        <!-- <p>Yep, this is a footer!</p> -->
+                <div class="logo">
+        <a href="{{ base_url }}">
+            <img src="{{ base_url }}/{{ pages["_meta"].meta.logo|url }}" alt="A dog image." />
+        </a>
+        </div>
     </div>
     <div class="social">
         {% for social in pages["_meta"].meta.social %}

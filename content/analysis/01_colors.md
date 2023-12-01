@@ -31,7 +31,7 @@ Resultat
 
 <br>
 
-####Analogt färgschema för skk.se:
+###Analogt färgschema för skk.se:
 <table class="color-table">
 <tr>
 <td style="background-color: #24B258">
@@ -43,7 +43,7 @@ Resultat
 
 <br>
 
-####Analogt färgschema för hundstallet.se:
+###Analogt färgschema för hundstallet.se:
 <table class="color-table">
 <tr>
 <td style="background-color: #004B66">
@@ -55,7 +55,7 @@ Resultat
 
 <br>
 
-####Monokromt färgschema för hundens.se:
+###Monokromt färgschema för hundens.se:
 <table class="color-table">
 <tr>
 <td style="background-color: #E58B01">

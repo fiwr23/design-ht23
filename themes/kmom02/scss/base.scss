@@ -94,3 +94,10 @@ picture {
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
+body {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-blend-mode: darken;
+}

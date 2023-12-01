@@ -1,12 +1,12 @@
 {% include 'incl/header.twig' %}
 
-<body>
+<body style="background-image: url('{{ assets_url }}/img/16colorsdog.jpg')">
     {% include 'incl/nav.twig' %}
     <div class="two-column-layout">
         <div class="aside" >
             {% for page in pages("technology")|sort_by("time")|reverse if not page.hidden %}
                 <div class="post">
-                    <h3><a href="{{ page.url }}">{{ page.title }}</a></h3>
+                    <em><a href="{{ page.url }}">{{ page.title }}</a></em>
                 </div>
             {% endfor %}
         </div>

@@ -2,18 +2,26 @@
 
 $everything-font: 'Roboto', sans-serif;
 $header-font: 'Libre Baskerville', sans-serif;
-$font-color: #b1b5b8;
+$font-color: #e8ecf0;
 $font-alternative-color: #716f6f;
 $accent-color: #ee6c4d;
 $header-footer-bckg-color: hsl(212, 54%, 19%);
 $background-color: hsl(212, 51%, 15%);
 $background-alternative-color: #3d5556;
-$main-color: hsl(212, 54%, 21%);
+$main-color: hsl(212, 47%, 30%);
 $main-hover: #010101;
 $hover-background-color: rgb(0, 0, 0);
 $header-footer-border-color: #222;
-$code-pre-background: #e2e1e1;
+$code-pre-background: #efeded;
 
 img {
     opacity: 0.7;
+}
+
+p {
+    font-weight: 700;
+}
+
+p {
+    font-weight: 400;
 }

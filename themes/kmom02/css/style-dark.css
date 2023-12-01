@@ -6427,6 +6427,14 @@ img {
   opacity: 0.7;
 }
 
+p {
+  font-weight: 700;
+}
+
+p {
+  font-weight: 400;
+}
+
 * {
   box-sizing: border-box;
   border: 0 none;
@@ -6443,7 +6451,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 a {
-  color: #b1b5b8;
+  color: #e8ecf0;
 }
 
 ol, ul {
@@ -6461,7 +6469,7 @@ html, body {
 /* Placement */
 body {
   background-color: hsl(212, 51%, 15%);
-  color: #b1b5b8;
+  color: #e8ecf0;
   display: flex;
   flex-direction: column;
 }
@@ -6481,7 +6489,7 @@ img {
   margin-top: 20px;
   margin-bottom: 20px;
   padding: 1em;
-  background-color: hsl(212, 54%, 21%);
+  background-color: hsl(212, 47%, 30%);
   border-radius: 15px;
   border-style: solid;
   border-width: 2px;
@@ -6523,6 +6531,13 @@ picture {
   margin-bottom: 20px;
 }
 
+body {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-blend-mode: darken;
+}
+
 /* Header */
 .header,
 .site-header {
@@ -6532,7 +6547,7 @@ picture {
 }
 
 .header {
-  border-bottom: 2px solid;
+  border-bottom: 4px solid;
   border-color: #222;
   padding-left: 0.5em;
 }
@@ -6548,6 +6563,16 @@ picture {
 .title,
 .logo {
   padding: 2em 2em 2em 0;
+}
+
+.logo {
+  width: 200px;
+}
+
+.logo img {
+  border-style: double;
+  border: solid 4px;
+  box-shadow: 10px 10px 5px rgb(11, 11, 11);
 }
 
 @media (max-width: 900px) {
@@ -6574,7 +6599,7 @@ picture {
   }
 }
 .title * {
-  color: #b1b5b8;
+  color: #e8ecf0;
 }
 .title *:hover {
   color: #716f6f;
@@ -6592,7 +6617,7 @@ picture {
 .nav {
   padding-top: 2em;
   font-size: 1.2rem;
-  color: #b1b5b8 !important;
+  color: #e8ecf0 !important;
 }
 .nav a:hover {
   background-color: rgb(0, 0, 0);
@@ -6637,7 +6662,7 @@ h1 {
 }
 
 .footer a {
-  color: #b1b5b8;
+  color: #e8ecf0;
   text-decoration: none;
 }
 .footer a :hover {
@@ -6669,7 +6694,7 @@ h1 {
   grid-column: span 3;
   justify-self: center;
   padding: 20px;
-  background-color: hsl(212, 54%, 21%);
+  background-color: hsl(212, 47%, 30%);
   border-radius: 15px;
   border-style: solid;
   border-width: 2px;
@@ -6680,7 +6705,7 @@ h1 {
   min-height: 150px;
   min-width: 200px;
   padding-top: 40px;
-  background-color: hsl(212, 54%, 21%);
+  background-color: hsl(212, 47%, 30%);
   border-radius: 15px;
   border-style: solid;
   border-width: 2px;
@@ -6747,7 +6772,7 @@ h1 {
   margin: 0 auto;
   margin-top: 20px;
   margin-bottom: 20px;
-  background-color: hsl(212, 54%, 21%) !important;
+  background-color: hsl(212, 47%, 30%) !important;
 }
 
 .two-column-main {
@@ -6796,7 +6821,7 @@ code {
   padding: 0.1em 0.2em;
   border: 1px solid #ccc;
   border-radius: 0.3em;
-  background: #e2e1e1;
+  background: #efeded;
   font-family: monospace;
   font-size: 0.85rem;
   line-height: 1.9824;
@@ -6806,7 +6831,7 @@ pre {
   padding: 0 1em;
   border: 1px solid #ccc;
   border-radius: 0.3em;
-  background: #e2e1e1;
+  background: #efeded;
 }
 
 pre code {
@@ -6838,7 +6863,7 @@ pre code {
 }
 
 .nav a, .nav-toggle {
-  color: #b1b5b8;
+  color: #e8ecf0;
 }
 
 .nav-toggle {
@@ -6877,7 +6902,7 @@ pre code {
 table {
   width: 100%;
   max-width: 100%;
-  background-color: #e2e1e1;
+  background-color: #efeded;
   border-collapse: collapse;
   color: #575656;
 }
